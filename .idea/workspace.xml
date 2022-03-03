@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa750dc6-8469-4493-9ec5-d03010cf5dd1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lessons/lesson2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/exercise2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/exercises/exercise2.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
