@@ -1,51 +1,53 @@
-# This is the first question in Lab Exercise-My Application Overview
+# Lab Exercise-My Application Overview
+
+# This is Question One
+# Write a function called simple().
+# Assign a different message to 5 variables and print each message.
+
+def simple ():
+    """Days of the week"""
+    day1 = 'Monday'
+    day2 = 'Tuesday'
+    day3 = 'Wednesday'
+    day4 = 'Thursday'
+    day5 = 'Friday'
+    print(day1)
+    print(day2)
+    print(day3)
+    print(day4)
+    print(day5)
+
+simple()
 
 
-def simple(nicknames):
-    """Displays a common nickname"""
-    print(f'I have several nicknames. The most common one is, {nicknames.title()}.')
 
 
-simple('Asher')
+
+# This is Question 2
+# Write a function called simple2(). Assign a message to a variable,
+# then print out that variable. Change the message and assign it to the
+# variable again, but after the first print statement.
+# Print the second message. Do these steps 2 more times.
+# You should have 4 messages assigned to the same variable and
+# 4 print functions showing the results.
+
+def simple2():
+    """Displays days of the week"""
+    day1 = 'Monday'
+    print(day1)
+    day1 = 'Tuesday'
+    print(day1)
+    day1 = 'Wednesday'
+    print(day1)
+    day1 = 'Thursday'
+    print(day1)
 
 
-def simple(nickname_2):
-    """Displays nickname 2"""
-    print(f"Another nickname I have is, {nickname_2}.")
+simple2()
 
-
-simple('Asher Dash')
-
-
-def simple(nickname_3):
-    """Displays nickname 3"""
-    print(f"My friends like to call me, {nickname_3}.")
-
-
-simple('Ash')
-
-
-def simple(nickname_4):
-    """Displays nickname 4 """
-    print(f"My kids call me mom, mommy and {nickname_4}.")
-
-
-simple('momma')
-
-# This is the second question in the lab
-
-def simple2(last_name):
-    """Displays nickname information"""
-    print(f"My name is Ashley, {last_name}.")
-    print(f"My full name is Ashley Kristine,{last_name}.")
-    print(f"My daughter's name is Adelynn, {last_name}.")
-    print(f"My son's name is Aiden, {last_name}.")
-
-
-simple2('Likes')
-
-
-# This is the third question for the assignment
+# This is Question 3
+# Write a function called message that takes 1 argument.
+# Inside that function, write a print function that takes the argument.
 
 def message(first_name):
     print(first_name + " Likes ")
