@@ -133,9 +133,21 @@ stage_life()
 # Write a function that takes an argument. Check this argument to see if it is a Boolean using the bool method.
 # Call the method and use the below values as your argument. Using comments, provide the name of the argument and
 # if it was true or false from running the code.
+# 12, 1.2, 0, 0.4, 0.0
+
 
 def q5_question(arg1):
     print(bool(arg1))
 
 
-q5_question(10)
+q5_question(12)
+q5_question(1.2)
+q5_question(0)
+q5_question(0.4)
+q5_question(0.0)
+
+# 12 = True
+# 1.2 = True
+# 0 = False
+# 0.4 = True
+# 0.0 = False
