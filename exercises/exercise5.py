@@ -21,6 +21,8 @@ print( house == 'mansion')
 # Conditional Test 4 (True)
 ashley = 34
 aiden = 10
+
+
 def who_is_older():
     result1 = ashley > aiden
     print(" Is ashley older than aiden? I predict true.")
@@ -41,6 +43,7 @@ def who_is_older():
 
 
 who_is_older()
+
 
 # Conditional Test 6 (False)
 def who_is_older():
@@ -87,12 +90,10 @@ print(result4)
 
 # Test using lower() method (True)
 color = 'Yellow'
-color.lower == 'Yellow'
-print("This is for the lower method:", color == 'Yellow')
+print("This is for the lower method:", color.lower == 'Yellow')
 
 # Test using lower() method (False)
-color.lower == 'yellow'
-print("This is for the lower method:", color == color.lower)
+print("This is for the lower method:", 'Yellow' == color.lower)
 
 # Numerical tests (False)
 # equality
