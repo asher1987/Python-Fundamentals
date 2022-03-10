@@ -109,7 +109,7 @@ red_alien()
 # Question #4
 # Try it yourself 5-6
 # Write an if-elif-else chain that determines a person's stage of life. Set a value for the variable 'age' and then:
-# If the person is less than 2 years old, print a message that hte person is a baby
+# If the person is less than 2 years old, print a message that the person is a baby
 def stage_life():
     age = 12
     if age < 2:
