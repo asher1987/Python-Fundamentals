@@ -91,6 +91,7 @@ send_messages(text_messages[:], sent_messages)
 # Question 3: 9-1, 9-2, 9-3
 # 9-1
 
+
 class Restaurant:
     def __init__(self, restaurant_name, cuisine_type):
         self.name = restaurant_name
@@ -99,7 +100,6 @@ class Restaurant:
     def describe_restaurant(self):
         print('The name of this restaurant is', self.name)
         print('This restaurant serves', self.cuisine)
-
 
     def open_restaurant(self):
         print('This restaurant is open.')
@@ -160,7 +160,7 @@ class Restaurant:
     def __init__(self, restaurant_name, cuisine_type, number_served):
         self.name = restaurant_name
         self.cuisine = cuisine_type
-        self.served = 10
+        self.served = 0
 
     def describe_restaurant(self):
         print('The name of this restaurant is', self.name)
@@ -169,8 +169,12 @@ class Restaurant:
     def open_restaurant(self):
         print('This restaurant is open.')
 
-    def number_served(self):
+    def set_number_served(self, number_served):
+        self.served = number_served
         print('This restaurant serves', self.served, 'people daily.')
+
+    def increment_number_served(self, more_people):
+        self.served += more_people
 
 
 restaurant = Restaurant('Freddy\'s', 'burgers', ' ')
@@ -179,10 +183,16 @@ print(restaurant.cuisine)
 print(restaurant.served)
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
-restaurant.number_served()
+restaurant.set_number_served(12)
+restaurant.increment_number_served(100)
+print('On a given day, {restaurant.set_number_served}')
+restaurant.increment_number_served(500)
+print(f'They serve {restaurant.set_number_served}')
+
 
 # Question 4 9-5
 class User:
+
     def __init__(self, first_name, last_name, major, advisor_name, student_standing):
         self.name = first_name
         self.last = last_name
