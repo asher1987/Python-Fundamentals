@@ -32,10 +32,7 @@ class Boat:
     def set_color(self, y):
         self._age = y
 
-    def del_color(self):
-        del self._color
-
-    color = property(get_color, set_color, del_color)
+    color = property(get_color, set_color)
 
 ashley = Boat()
 ashley.color = 'blue'
