@@ -151,3 +151,77 @@ student2.greet_user()
 student3 = User('Aiden', 'Likes', '4th Grade', 'Mommy', 'good')
 student3.describe_user()
 student3.greet_user()
+
+# Question4 9-5, 9-5
+# 9-4
+
+
+class Restaurant:
+    def __init__(self, restaurant_name, cuisine_type, number_served):
+        self.name = restaurant_name
+        self.cuisine = cuisine_type
+        self.served = 10
+
+    def describe_restaurant(self):
+        print('The name of this restaurant is', self.name)
+        print('This restaurant serves', self.cuisine)
+
+    def open_restaurant(self):
+        print('This restaurant is open.')
+
+    def number_served(self):
+        print('This restaurant serves', self.served, 'people daily.')
+
+
+restaurant = Restaurant('Freddy\'s', 'burgers', ' ')
+print(restaurant.name)
+print(restaurant.cuisine)
+print(restaurant.served)
+restaurant.describe_restaurant()
+restaurant.open_restaurant()
+restaurant.number_served()
+
+# Question 4 9-5
+class User:
+    def __init__(self, first_name, last_name, major, advisor_name, student_standing):
+        self.name = first_name
+        self.last = last_name
+        self.major = major
+        self.advisor = advisor_name
+        self.standing = student_standing
+        self.attempts = +1
+        self.reset = 0
+
+    def describe_user(self):
+        print('The student\'s first name is', self.name)
+
+    def greet_user(self):
+        print(f"\nWelcome, {self.name}, {self.last}! You are enrolled into {self.major}. Your advisor is "
+              f"{self.advisor}. You are in {self.standing} standing.")
+
+    def standard_greeting(self):
+        full_name = (self.name, self.last)
+        print(full_name)
+
+    def increment_login(self):
+        print(f'\nYou\'ve tried to login, {self.attempts} time(s). This is one too many times. You are locked out.')
+
+    def reset_login_attempts(self):
+        print(f'\nYour account has been reset to {self.reset}.')
+
+
+student1 = User('Ashley', 'Likes', 'Cloud Programming', 'Dajina Kiel', 'good')
+student1.increment_login()
+student1.increment_login()
+student1.increment_login()
+student1.reset_login_attempts()
+
+
+
+
+
+
+
+
+
+
