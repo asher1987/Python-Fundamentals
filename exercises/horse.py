@@ -49,27 +49,8 @@ class Pony (MyHorse):
         self._breed = breed
 
 
-Pony = Pony('brown', 'large', 'male', 'mustang')
-print('Ashley\'s pony is a {0}.'.format(Pony.breed)) # takes child horse breed and puts it in the
-# place holder.
-
-class Pony (MyHorse):
-    def __init__(self, size, color, gender, breed):
-        super().__init__(size, color, gender)
-        self._breed = breed # underscore makes the value protected
-
-    @property
-    def breed(self):
-        return self._breed
-
-    @breed.setter
-    def breed(self, breed):
-        self._breed = breed
-
-
-Pony = Pony('brown', 'large', 'male', 'mustang')
-print('Ashley\'s pony is a {0}.'.format(Pony.breed)) # takes child horse breed and puts it in the
-# place holder.
+Pony = Pony('white', 'small', 'female', 'pony')
+print('Ashley\'s horse is a {0}.'.format(Pony._breed))
 
 # child number 2
 

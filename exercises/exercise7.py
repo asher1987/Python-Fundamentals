@@ -9,8 +9,7 @@ for numbers in range(1, 21):
 # numbers from 1-20. Use a for loop to print each number.
 odd = []
 odd = list(range(1, 21, 2))
-for number in odd\
-        :
+for number in odd:
     print(number)
 
 # Question 3: Try it yourself 4-7

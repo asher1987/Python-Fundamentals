@@ -98,14 +98,14 @@ class Restaurant:
         self.cuisine = cuisine_type
 
     def describe_restaurant(self):
-        print('The name of this restaurant is', self.name)
+        print(self.name, 'is the name of the restaurant.')
         print('This restaurant serves', self.cuisine)
 
     def open_restaurant(self):
         print('This restaurant is open.')
 
 
-restaurant = Restaurant('Freddy\'s', 'burgers' )
+restaurant = Restaurant('Freddy\'s', 'burgers')
 print(restaurant.name)
 print(restaurant.cuisine)
 restaurant.describe_restaurant()
@@ -163,8 +163,8 @@ class Restaurant:
         self.served = 0
 
     def describe_restaurant(self):
-        print('The name of this restaurant is', self.name)
-        print('This restaurant serves', self.cuisine)
+        print(f'The name of this restaurant is {self.name}.' )
+        print(f'This restaurant serves {self.cuisine}.')
 
     def open_restaurant(self):
         print('This restaurant is open.')
@@ -178,16 +178,12 @@ class Restaurant:
 
 
 restaurant = Restaurant('Freddy\'s', 'burgers', ' ')
-print(restaurant.name)
-print(restaurant.cuisine)
-print(restaurant.served)
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
 restaurant.set_number_served(12)
 restaurant.increment_number_served(100)
-print('On a given day, {restaurant.set_number_served}')
 restaurant.increment_number_served(500)
-print(f'They serve {restaurant.set_number_served}')
+print(f'They serve {restaurant.served} people in one week.')
 
 
 # Question 4 9-5
@@ -202,10 +198,10 @@ class User:
         self.attempts = +1
         self.reset = 0
 
-    def describe_user(self):
+    def greet_user(self):
         print('The student\'s first name is', self.name)
 
-    def greet_user(self):
+    def describe_user(self):
         print(f"\nWelcome, {self.name}, {self.last}! You are enrolled into {self.major}. Your advisor is "
               f"{self.advisor}. You are in {self.standing} standing.")
 
@@ -214,7 +210,9 @@ class User:
         print(full_name)
 
     def increment_login(self):
-        print(f'\nYou\'ve tried to login, {self.attempts} time(s). This is one too many times. You are locked out.')
+        self.attempts += 1
+        print(f'\nYou have entered an invalid login {self.attempts} times. This is one too many times. '
+              f'You are locked out.')
 
     def reset_login_attempts(self):
         print(f'\nYour account has been reset to {self.reset}.')
