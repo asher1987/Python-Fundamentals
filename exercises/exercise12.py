@@ -66,8 +66,8 @@ def multiple_files(filename):
         with open(filename) as f:
             animal_names = f.read()
     except FileNotFoundError:
-        pass 
-     else:
+        pass
+    else:
         document_info = animal_names
         animal_names = len(document_info)
         print(f"The file {filename} has the following animal names in in: {animal_names}.")

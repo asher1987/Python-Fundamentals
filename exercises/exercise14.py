@@ -1,11 +1,10 @@
 # Try it yourself 11-1
+import unittest
 def city_country(city, country):
     return f'{city}, {country}'
 # I put this all in the same file, but I have the actual test in test_cities.py that I included.
 
 # testing to see if this function works
-import unittest
-from exercise14 import city_country
 
 
 class CitiesTestCase(unittest.TestCase):
