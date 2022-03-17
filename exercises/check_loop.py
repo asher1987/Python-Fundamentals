@@ -11,8 +11,25 @@ def sample_add():
         second = input('The second number is?')
         answer = int(first) + int(second)
         print(answer)
-    except (ZeroDivisionError, ValueError):
-        print('You can\'t use a string to add')
-
+    except ValueError:
+        print('You can\'t use a string.')
 
 sample_add()
+
+# 10-7
+while True:
+    try:
+        first = input('This first number is?:')
+        if first == 'stop':
+            break
+        first = int(first)
+        second = input('The second number is?:')
+        if second == 'stop':
+            break
+        second = int(second)
+    except ValueError:
+        print('You can\'t use a string.')
+    else:
+        answer = first + second
+        print(f'The answer is {answer}.')
+
