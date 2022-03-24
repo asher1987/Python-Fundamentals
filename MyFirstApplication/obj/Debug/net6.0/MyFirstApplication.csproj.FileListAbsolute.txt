@@ -1,0 +1,15 @@
+/Users/alikes/My Repository/MyFirstApplication/bin/Debug/net6.0/MyFirstApplication
+/Users/alikes/My Repository/MyFirstApplication/bin/Debug/net6.0/MyFirstApplication.deps.json
+/Users/alikes/My Repository/MyFirstApplication/bin/Debug/net6.0/MyFirstApplication.runtimeconfig.json
+/Users/alikes/My Repository/MyFirstApplication/bin/Debug/net6.0/MyFirstApplication.dll
+/Users/alikes/My Repository/MyFirstApplication/bin/Debug/net6.0/MyFirstApplication.pdb
+/Users/alikes/My Repository/MyFirstApplication/obj/Debug/net6.0/MyFirstApplication.csproj.AssemblyReference.cache
+/Users/alikes/My Repository/MyFirstApplication/obj/Debug/net6.0/MyFirstApplication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alikes/My Repository/MyFirstApplication/obj/Debug/net6.0/MyFirstApplication.AssemblyInfoInputs.cache
+/Users/alikes/My Repository/MyFirstApplication/obj/Debug/net6.0/MyFirstApplication.AssemblyInfo.cs
+/Users/alikes/My Repository/MyFirstApplication/obj/Debug/net6.0/MyFirstApplication.csproj.CoreCompileInputs.cache
+/Users/alikes/My Repository/MyFirstApplication/obj/Debug/net6.0/MyFirstApplication.dll
+/Users/alikes/My Repository/MyFirstApplication/obj/Debug/net6.0/refint/MyFirstApplication.dll
+/Users/alikes/My Repository/MyFirstApplication/obj/Debug/net6.0/MyFirstApplication.pdb
+/Users/alikes/My Repository/MyFirstApplication/obj/Debug/net6.0/MyFirstApplication.genruntimeconfig.cache
+/Users/alikes/My Repository/MyFirstApplication/obj/Debug/net6.0/ref/MyFirstApplication.dll
